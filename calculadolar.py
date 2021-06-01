@@ -17,7 +17,7 @@ init(autoreset=True)
 
 url = "https://www.dolarhoy.com/cotizaciondolarblue"
 page = requests.get(url)
-soup = BeautifulSoup(page.content, "html.parser")
+soup = BeautifulSoup(page.content, "lxml")
 
 btc = soup.find_all('div', class_="value")
 
