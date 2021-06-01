@@ -1,4 +1,4 @@
 # calculadolar
 Calculadora de dolar a peso y viceversa.
-Install requeriments.txt or install the modules from requeriments.txt with pip.
-Run calculadolar.py with python3
+Instalar los modulos dentro de requeriments.txt
+Ejecutar calculadolar.py con python3
